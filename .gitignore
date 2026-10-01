@@ -1,2 +1,5 @@
 # PyTorch model checkpoints
 *.pt
+
+# Downloaded NLP model weights
+S7 NLP/.hf_cache/
