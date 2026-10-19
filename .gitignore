@@ -1,5 +1,47 @@
-# PyTorch model checkpoints
-*.pt
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.template
 
-# Downloaded NLP model weights
-S7 NLP/.hf_cache/
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# macOS metadata
+.DS_Store
+
+# Downloaded datasets and generated prediction tables
+data/
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.parquet
+*.feather
+*.arrow
+*.npy
+*.npz
+*.xls
+*.xlsx
+*_data.json
+
+# Trained models and downloaded model caches
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pytorch_model*.bin
+.hf_cache/
+.cache/
+rain_quantiles.json
+
+# Generated submission receipts
+submission_receipt*.json
