@@ -1,0 +1,23 @@
+{
+  "submission_id": 9439,
+  "submission_name": "rain-xgboost-best",
+  "score": 0.19889557444444445,
+  "metrics": {
+    "reward": 0.19889557444444445,
+    "crps_6h": 0.22032332000000002,
+    "crps_48h": 0.1774678288888889,
+    "n_samples": 90.0,
+    "action_time_max": 0.021180856999990283
+  },
+  "number_of_runs": 1,
+  "n_episodes_total": 90,
+  "created_at_ts": "2026-10-19T13:57:33.832840Z",
+  "last_end_run_ts": "2026-10-21T12:12:18.482137Z",
+  "rank": 15,
+  "simulation_result_id": 116987,
+  "info_message": "mean CRPS 0.1989 mm over 1 unit(s) (+6h 0.2203 mm, +48h 0.1775 mm)",
+  "issue_time": "2026-10-19T11:00:00Z",
+  "remote_agent_matches_local": true,
+  "remote_model_sha256_matches_local": true,
+  "original_crps_cell_matches_local": true
+}
