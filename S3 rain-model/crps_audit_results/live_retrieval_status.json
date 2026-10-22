@@ -1,0 +1,28 @@
+{
+  "status": "raw_live_inputs_unavailable",
+  "challenge_id": 177,
+  "submission_id": 9439,
+  "simulation_result_id": 116987,
+  "submission_result_id": 130596,
+  "issue_time": "2026-10-19T11:00:00Z",
+  "published_score": 0.19889557444444445,
+  "published_metrics": {
+    "crps_6h": 0.22032332000000002,
+    "crps_48h": 0.1774678288888889,
+    "n_samples": 90
+  },
+  "independent_live_score": null,
+  "agent_stdout_logs": null,
+  "env_stdout_logs": null,
+  "accessible_submission_files": [
+    "agent.py",
+    "model.joblib"
+  ],
+  "replay_format": "image_png",
+  "replay_contains_numeric_metadata": false,
+  "missing": [
+    "recorded_forecast_members",
+    "complete_verifying_observations"
+  ],
+  "official_access_removal_documentation": "https://github.com/ml-arena/mlarena-sdk/blob/main/README.md#450--no-live-data-reads"
+}
