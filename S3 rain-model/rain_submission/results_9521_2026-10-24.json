@@ -1,0 +1,157 @@
+{
+  "id": 9521,
+  "submission_name": "rain-xgboost-best-2026-10-22",
+  "status": "active",
+  "score": 0.03707695555555555,
+  "score_ci95": 0.0,
+  "metrics": {
+    "reward": 0.03707695555555555,
+    "crps_6h": 0.0534532511111111,
+    "crps_48h": 0.02070066,
+    "n_samples": 90.0,
+    "action_time_max": 0.019905851000004304
+  },
+  "metrics_window": {
+    "reward": 0.03707695555555555,
+    "crps_6h": 0.0534532511111111,
+    "crps_48h": 0.02070066,
+    "n_samples": 90.0,
+    "action_time_max": 0.019905851000004304
+  },
+  "number_of_runs": 1,
+  "last_end_run_ts": "2026-10-24T12:09:45.927170Z",
+  "latest_run_failure": null,
+  "checked_at_utc": "2026-10-24T15:26:40.911318+00:00",
+  "recent_runs": [
+    {
+      "run_id": 117956,
+      "completed_at": "2026-10-24T12:09:45.933050Z",
+      "score": 0.03707695555555555,
+      "metrics": {
+        "crps_6h": 0.0534532511111111,
+        "crps_48h": 0.02070066,
+        "n_samples": 90
+      },
+      "info_message": "mean CRPS 0.0371 mm over 1 unit(s) (+6h 0.0535 mm, +48h 0.0207 mm)",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117885,
+      "completed_at": "2026-10-24T06:08:50.518369Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-24T05:00:00Z; first score once 2026-10-26T05:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117809,
+      "completed_at": "2026-10-24T00:08:07.500166Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-23T23:00:00Z; first score once 2026-10-25T23:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117736,
+      "completed_at": "2026-10-23T18:07:53.348204Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-23T17:00:00Z; first score once 2026-10-25T17:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117655,
+      "completed_at": "2026-10-23T12:07:09.781006Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-23T11:00:00Z; first score once 2026-10-25T11:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117578,
+      "completed_at": "2026-10-23T06:06:22.301585Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-23T05:00:00Z; first score once 2026-10-25T05:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117502,
+      "completed_at": "2026-10-23T00:05:31.592608Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-22T23:00:00Z; first score once 2026-10-24T23:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117409,
+      "completed_at": "2026-10-22T18:05:30.752804Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-22T17:00:00Z; first score once 2026-10-24T17:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117358,
+      "completed_at": "2026-10-22T16:20:05.320678Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-22T11:00:00Z; first score once 2026-10-24T11:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    },
+    {
+      "run_id": 117357,
+      "completed_at": "2026-10-22T16:19:51.927514Z",
+      "score": null,
+      "metrics": {
+        "crps_6h": null,
+        "crps_48h": null,
+        "n_samples": 0
+      },
+      "info_message": "no matured forecasts yet \u2014 issued 100-member ensembles for 2026-10-22T11:00:00Z; first score once 2026-10-24T11:00:00Z is observed",
+      "agent_error_type": null,
+      "agent_error_message": null
+    }
+  ]
+}
