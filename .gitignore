@@ -45,3 +45,14 @@ rain_quantiles.json
 
 # Generated submission receipts
 submission_receipt*.json
+
+# Ultralytics training artifacts
+runs/
+
+# S7 aquarium detection: downloaded data and generated working files
+/S7-Computer Vision 2/data/
+/S7-Computer Vision 2/yolo/
+/S7-Computer Vision 2/aquarium.yaml
+/S7-Computer Vision 2/aquarium_all.yaml
+/S7-Computer Vision 2/submission.csv
+/S7-Computer Vision 2/yolo*.pt
