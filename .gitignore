@@ -56,3 +56,5 @@ runs/
 /S7-Computer Vision 2/aquarium_all.yaml
 /S7-Computer Vision 2/submission.csv
 /S7-Computer Vision 2/yolo*.pt
+rfdetr_data/
+rfdetr_aquarium/
